@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coworking</title>
+    <link rel="stylesheet" href="/assets/dist/styles/main.css">
+    <link rel="stylesheet" href="/assets/src/modules/styles/glightbox.min.css">
+    <link rel="stylesheet" href="/assets/src/modules/styles/accordion.min.css">
+    <link rel="stylesheet" href="/assets/src/modules/styles/sal.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container container">
+            <a href="#" class="header-logo" aria-label="Website Logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="149.612" height="17.88" viewBox="0 0 149.612 17.88">
+                    <path
+                        d="M1.28,18a.585.585,0,0,1-.432-.168A.639.639,0,0,1,.68,17.4V1.8a.575.575,0,0,1,.6-.6H8.6a8.52,8.52,0,0,1,3.384.576,4,4,0,0,1,1.944,1.656,4.724,4.724,0,0,1,.648,2.52,3.389,3.389,0,0,1-.336,1.536,3.438,3.438,0,0,1-.792,1.08,3.409,3.409,0,0,1-.864.624,4.181,4.181,0,0,1,1.608,1.416,3.8,3.8,0,0,1,.72,2.3,5.056,5.056,0,0,1-.72,2.736A4.571,4.571,0,0,1,12.128,17.4a8.117,8.117,0,0,1-3.312.6ZM5,14.88H8.336a1.968,1.968,0,0,0,1.56-.6,2.013,2.013,0,0,0,.528-1.368A1.937,1.937,0,0,0,8.336,10.92H5ZM5,7.872H8.12a1.934,1.934,0,0,0,1.464-.5,1.806,1.806,0,0,0,.5-1.3,1.645,1.645,0,0,0-.5-1.248,1.934,1.934,0,0,0-1.464-.5H5ZM17.781,18a.585.585,0,0,1-.432-.168.639.639,0,0,1-.168-.432V6.12a.555.555,0,0,1,.168-.408.548.548,0,0,1,.432-.192h2.76a.548.548,0,0,1,.432.192.523.523,0,0,1,.192.408v.96a4.282,4.282,0,0,1,1.512-1.152,4.942,4.942,0,0,1,2.04-.408h1.056a.575.575,0,0,1,.6.6V8.592a.639.639,0,0,1-.168.432.585.585,0,0,1-.432.168H23.445a2.076,2.076,0,0,0-1.536.552,2.046,2.046,0,0,0-.528,1.512V17.4a.6.6,0,0,1-.192.432.585.585,0,0,1-.432.168Zm13.7.24a5.456,5.456,0,0,1-2.328-.48,4.29,4.29,0,0,1-1.608-1.344,3.183,3.183,0,0,1-.6-1.9,3.119,3.119,0,0,1,1.392-2.688,8.465,8.465,0,0,1,3.7-1.368l3-.456V9.672a2.092,2.092,0,0,0-.36-1.32,1.6,1.6,0,0,0-1.32-.456,2.089,2.089,0,0,0-1.1.264,1.883,1.883,0,0,0-.648.72.69.69,0,0,1-.6.312H28.311a.552.552,0,0,1-.408-.144.485.485,0,0,1-.12-.384A2.053,2.053,0,0,1,28.1,7.68,4.307,4.307,0,0,1,29.1,6.552a5.491,5.491,0,0,1,1.728-.912A8.014,8.014,0,0,1,33.4,5.28a8.561,8.561,0,0,1,2.64.36,4.766,4.766,0,0,1,1.8,1.008,3.784,3.784,0,0,1,1.008,1.536,5.258,5.258,0,0,1,.336,1.92v7.3a.6.6,0,0,1-.192.432.555.555,0,0,1-.408.168H35.8a.585.585,0,0,1-.432-.168A.639.639,0,0,1,35.2,17.4v-.84a3.484,3.484,0,0,1-.84.84,4.111,4.111,0,0,1-1.248.6A5.011,5.011,0,0,1,31.479,18.24ZM32.607,15.5a2.657,2.657,0,0,0,1.248-.288,2.1,2.1,0,0,0,.888-.936,3.468,3.468,0,0,0,.336-1.608v-.336l-2.04.36a3.786,3.786,0,0,0-1.656.6,1.124,1.124,0,0,0-.5.912,1.051,1.051,0,0,0,.24.7,1.664,1.664,0,0,0,.624.456A2.577,2.577,0,0,0,32.607,15.5ZM42.358,18a.585.585,0,0,1-.432-.168.639.639,0,0,1-.168-.432V6.12a.575.575,0,0,1,.6-.6H45.19a.575.575,0,0,1,.6.6V17.4a.639.639,0,0,1-.168.432A.585.585,0,0,1,45.19,18ZM42.334,3.72a.575.575,0,0,1-.6-.6V.96A.555.555,0,0,1,41.9.552.548.548,0,0,1,42.334.36h2.88a.523.523,0,0,1,.408.192.523.523,0,0,1,.192.408V3.12a.548.548,0,0,1-.192.432.555.555,0,0,1-.408.168ZM49.092,18a.585.585,0,0,1-.432-.168.639.639,0,0,1-.168-.432V6.12a.575.575,0,0,1,.6-.6h2.76a.585.585,0,0,1,.432.168.548.548,0,0,1,.192.432v.912a4.757,4.757,0,0,1,1.608-1.248,5.253,5.253,0,0,1,2.376-.5,4.721,4.721,0,0,1,2.448.624,4.228,4.228,0,0,1,1.68,1.824,6.4,6.4,0,0,1,.624,2.976v6.7a.639.639,0,0,1-.168.432.585.585,0,0,1-.432.168H57.588a.575.575,0,0,1-.6-.6V10.848a2.464,2.464,0,0,0-.552-1.728A1.959,1.959,0,0,0,54.852,8.5a2.1,2.1,0,0,0-1.584.624,2.4,2.4,0,0,0-.576,1.728V17.4a.6.6,0,0,1-.192.432.555.555,0,0,1-.408.168ZM67.05,18a.721.721,0,0,1-.528-.168,1.493,1.493,0,0,1-.264-.432L62.8,6.288a.642.642,0,0,1-.048-.24.455.455,0,0,1,.168-.36.529.529,0,0,1,.384-.168h2.472a.649.649,0,0,1,.48.168.735.735,0,0,1,.24.336l2.016,6.864,2.16-6.84a.8.8,0,0,1,.216-.336.714.714,0,0,1,.528-.192H73a.714.714,0,0,1,.528.192.575.575,0,0,1,.216.336l2.16,6.84,2.016-6.864a.8.8,0,0,1,.216-.336.738.738,0,0,1,.5-.168h2.472a.529.529,0,0,1,.384.168.455.455,0,0,1,.168.36.642.642,0,0,1-.048.24L78.162,17.4a1.021,1.021,0,0,1-.264.432A.721.721,0,0,1,77.37,18H75.21a.775.775,0,0,1-.528-.168,1.021,1.021,0,0,1-.264-.432L72.21,10.824,70,17.4a1.021,1.021,0,0,1-.264.432A.775.775,0,0,1,69.21,18Zm19.818.24a5.456,5.456,0,0,1-2.328-.48,4.29,4.29,0,0,1-1.608-1.344,3.183,3.183,0,0,1-.6-1.9,3.119,3.119,0,0,1,1.392-2.688,8.465,8.465,0,0,1,3.7-1.368l3-.456V9.672a2.092,2.092,0,0,0-.36-1.32A1.6,1.6,0,0,0,88.74,7.9a2.089,2.089,0,0,0-1.1.264,1.883,1.883,0,0,0-.648.72.69.69,0,0,1-.6.312H83.7a.552.552,0,0,1-.408-.144.485.485,0,0,1-.12-.384,2.053,2.053,0,0,1,.312-.984,4.307,4.307,0,0,1,1.008-1.128A5.491,5.491,0,0,1,86.22,5.64a8.014,8.014,0,0,1,2.568-.36,8.561,8.561,0,0,1,2.64.36,4.766,4.766,0,0,1,1.8,1.008,3.784,3.784,0,0,1,1.008,1.536,5.258,5.258,0,0,1,.336,1.92v7.3a.6.6,0,0,1-.192.432.555.555,0,0,1-.408.168H91.188a.585.585,0,0,1-.432-.168.639.639,0,0,1-.168-.432v-.84a3.484,3.484,0,0,1-.84.84A4.111,4.111,0,0,1,88.5,18,5.011,5.011,0,0,1,86.868,18.24ZM88,15.5a2.657,2.657,0,0,0,1.248-.288,2.1,2.1,0,0,0,.888-.936,3.468,3.468,0,0,0,.336-1.608v-.336l-2.04.36a3.786,3.786,0,0,0-1.656.6,1.124,1.124,0,0,0-.5.912,1.052,1.052,0,0,0,.24.7,1.664,1.664,0,0,0,.624.456A2.577,2.577,0,0,0,88,15.5ZM101.235,18a.721.721,0,0,1-.528-.168,2.033,2.033,0,0,1-.288-.432L95.883,6.264a.476.476,0,0,1-.048-.216.488.488,0,0,1,.144-.36.555.555,0,0,1,.408-.168H99.1a.649.649,0,0,1,.48.168.8.8,0,0,1,.216.336l2.712,7.368,2.736-7.368a.8.8,0,0,1,.216-.336.649.649,0,0,1,.48-.168h2.712a.529.529,0,0,1,.384.168.455.455,0,0,1,.168.36.476.476,0,0,1-.048.216L104.619,17.4a1.279,1.279,0,0,1-.288.432.76.76,0,0,1-.552.168Zm14.992.24a6.429,6.429,0,0,1-4.512-1.536,6.081,6.081,0,0,1-1.752-4.56V11.3a6.979,6.979,0,0,1,.84-3.24A5.16,5.16,0,0,1,112.963,6a6.957,6.957,0,0,1,3.24-.72,6.556,6.556,0,0,1,3.48.84,5.318,5.318,0,0,1,2.088,2.28,7.464,7.464,0,0,1,.7,3.288v.576a.575.575,0,0,1-.6.6h-7.68v.168a4,4,0,0,0,.24,1.272,2.2,2.2,0,0,0,.672.912,1.809,1.809,0,0,0,1.1.336,1.894,1.894,0,0,0,.792-.144,2.535,2.535,0,0,0,.552-.36q.216-.216.336-.36a1.08,1.08,0,0,1,.336-.312,1,1,0,0,1,.432-.072h2.976a.519.519,0,0,1,.384.144.42.42,0,0,1,.144.384,2.11,2.11,0,0,1-.408.984,5.055,5.055,0,0,1-1.128,1.152,6.073,6.073,0,0,1-1.824.912A8.293,8.293,0,0,1,116.227,18.24Zm-2.04-7.752h4.056V10.44A3.365,3.365,0,0,0,118,9.1a1.763,1.763,0,0,0-.7-.888,1.908,1.908,0,0,0-1.1-.312,1.866,1.866,0,0,0-1.08.312,1.952,1.952,0,0,0-.7.888,3.365,3.365,0,0,0-.24,1.344ZM125.063,18a.585.585,0,0,1-.432-.168.639.639,0,0,1-.168-.432V14.352a.575.575,0,0,1,.6-.6h3.048a.555.555,0,0,1,.408.168.548.548,0,0,1,.192.432V17.4a.6.6,0,0,1-.192.432.555.555,0,0,1-.408.168Zm6.807,0a.585.585,0,0,1-.432-.168.639.639,0,0,1-.168-.432V6.12a.575.575,0,0,1,.6-.6H134.7a.575.575,0,0,1,.6.6V17.4a.639.639,0,0,1-.168.432A.585.585,0,0,1,134.7,18Zm-.024-14.28a.575.575,0,0,1-.6-.6V.96a.555.555,0,0,1,.168-.408.548.548,0,0,1,.432-.192h2.88a.523.523,0,0,1,.408.192.523.523,0,0,1,.192.408V3.12a.548.548,0,0,1-.192.432.555.555,0,0,1-.408.168Zm12.062,14.52a8.044,8.044,0,0,1-3.408-.648,4.867,4.867,0,0,1-2.112-1.848,6.361,6.361,0,0,1-.816-2.9q-.024-.48-.024-1.08,0-.624.024-1.08a5.911,5.911,0,0,1,.864-2.9,5.024,5.024,0,0,1,2.136-1.848,7.853,7.853,0,0,1,3.336-.648,7.752,7.752,0,0,1,3.336.648,5,5,0,0,1,2.16,1.848,5.912,5.912,0,0,1,.864,2.9q.024.456.024,1.08,0,.6-.024,1.08a6.182,6.182,0,0,1-.84,2.9,4.694,4.694,0,0,1-2.112,1.848A7.944,7.944,0,0,1,143.908,18.24Zm0-2.928a1.813,1.813,0,0,0,1.56-.648,3.461,3.461,0,0,0,.576-1.944q.024-.36.024-.96t-.024-.96a3.416,3.416,0,0,0-.576-1.92,1.784,1.784,0,0,0-1.56-.672,1.863,1.863,0,0,0-1.56.672,3.3,3.3,0,0,0-.552,1.92q-.024.36-.024.96t.024.96a3.345,3.345,0,0,0,.552,1.944A1.894,1.894,0,0,0,143.908,15.312Z"
+                        transform="translate(-0.68 -0.36)" fill="#fff" />
+                </svg>
+            </a>
+            <div class="header__nav-wrapper">
+                <nav class="header__nav container">
+                    <ul class="header__menu">
+                        <li class="header__item">
+                            <a href="#" class="header__link">Demos</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#" class="header__link">Pages</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#" class="header__link">Support</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#" class="header__link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <button type="button" class="header-btn" aria-label="Mobile Button">
+                <span class="header-btn__line"></span>
+                <span class="header-btn__line"></span>
+                <span class="header-btn__line"></span>
+            </button>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero__container container">
+                <div class="hero__wrapper">
+                    <div class="hero__content">
+                        <p class="is-style-lead" data-sal="slide-up" data-sal-delay="300" data-sal-duration="1000">
+                            Shared space in your town</p>
+                        <h1 data-sal="slide-up" data-sal-delay="200" data-sal-duration="1000">
+                            Rent desk space in a <br />
+                            shared office environment
+                        </h1>
+                    </div>
+                    <div class="hero__play-wrapper" data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">
+                        <a href="https://www.youtube.com/watch?v=ScMzIvxBSi4" class="hero__play glightbox">Take virtual
+                            tour of our spaces</a>
+                    </div>
+                </div>
+                <div class="hero__btn-wrapper" data-sal="slide-up" data-sal-delay="500" data-sal-duration="1000">
+                    <button type="button" class="hero__btn" aria-label="Scroll Down"></button>
+                </div>
+            </div>
+            <img width="1600" height="1000" src="/assets/src/img/hero-img.jpg" alt="Hero Image" class="hero__image">
+        </section>
+        <section class="counters">
+            <div class="counters__container container">
+                <ul class="counters__list">
+                    <li class="counters__item" data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">
+                        <h2 class="counters__title purecounter" data-purecounter-start="0" data-purecounter-end="6">06
+                        </h2>
+                        <p class="counters__text">Offices are available on different countries</p>
+                    </li>
+                    <li class="counters__item" data-sal="slide-up" data-sal-delay="200" data-sal-duration="1000">
+                        <h2 class="counters__title purecounter" data-purecounter-start="0" data-purecounter-end="238">
+                            238</h2>
+                        <p class="counters__text">Seats are available right now with dedicated support</p>
+                    </li>
+                    <li class="counters__item" data-sal="slide-up" data-sal-delay="300" data-sal-duration="1000">
+                        <h2 class="counters__title purecounter" data-purecounter-start="0" data-purecounter-end="1395">
+                            1,395</h2>
+                        <p class="counters__text">People are using our co-work spaces right now</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="image-cards">
+            <div class="image-cards__container container">
+                <p class="image-cards__text" data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">With lots
+                    of unique blocks, you can easily build a page <br /> easily
+                    without any
+                    coding.</p>
+                <ul class="image-cards__list">
+                    <li class="image-cards__item" data-sal="slide-up" data-sal-delay="200" data-sal-duration="1000">
+                        <img width="330" height="469" loading="lazy" class="image-cards__image"
+                            src="/assets/src/img/tile-img-1.jpg" alt="Beauview">
+                        <div class="image-cards__texts">
+                            <p class="image-cards__item-title">Beauview</p>
+                            <p class="image-cards__caption"><span class="image-cards__countable purecounter"
+                                    data-purecounter-start="0" data-purecounter-end="37">37</span> seats</p>
+                        </div>
+                    </li>
+                    <li class="image-cards__item" data-sal="slide-up" data-sal-delay="300" data-sal-duration="1000">
+                        <img width="330" height="469" loading="lazy" class="image-cards__image"
+                            src="/assets/src/img/tile-img-2.jpg" alt="Beauview">
+                        <div class="image-cards__texts">
+                            <p class="image-cards__item-title">Haleyborough</p>
+                            <p class="image-cards__caption"><span class="image-cards__countable purecounter"
+                                    data-purecounter-start="0" data-purecounter-end="12">12</span> seats</p>
+                        </div>
+                    </li>
+                    <li class="image-cards__item" data-sal="slide-up" data-sal-delay="300" data-sal-duration="1000">
+                        <img width="330" height="469" loading="lazy" class="image-cards__image"
+                            src="/assets/src/img/tile-img-3.jpg" alt="Beauview">
+                        <div class="image-cards__texts">
+                            <p class="image-cards__item-title">Jeromyshire</p>
+                            <p class="image-cards__caption"><span class="image-cards__countable purecounter"
+                                    data-purecounter-start="0" data-purecounter-end="28">28</span> seats</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="content-images">
+            <div class="content-images__container container">
+                <div class="content-images__row">
+                    <div class="content-images__column">
+                        <div class="content-images__content" data-sal="fade" data-sal-delay="100"
+                            data-sal-duration="1000">
+                            <h2>Work around very <br />
+                                talented people.</h2>
+                            <p>With lots of unique blocks, you can easily build a page easily without any coding.</p>
+                        </div>
+                        <img width="520" height="600" src="/assets/src/img/work-img-1.jpg" alt="Work Image 1"
+                            loading="lazy" class="content-images__image" data-sal="slide-down" data-sal-delay="200"
+                            data-sal-duration="1000">
+                    </div>
+                    <div class="content-images__column">
+                        <img width="520" height="600" src="/assets/src/img/work-img-2.jpg" alt="Work Image 2"
+                            loading="lazy" class="content-images__image" data-sal="slide-up" data-sal-delay="300"
+                            data-sal-duration="1000">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="icon-columns">
+            <div class="icon-columns__container container">
+                <ul class="icon-columns__list">
+                    <li class="icon-columns__item" data-sal="slide-up" data-sal-delay="100" data-sal-duration="1000">
+                        <div class="icon-columns__icon">
+                            <svg width="45" height="38" viewBox="0 0 45 38" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M28 13H36" stroke="#2D2D2D" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M44 19H20V7" stroke="#2D2D2D" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M44 7V19V37" stroke="#2D2D2D" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M20 19V37" stroke="#2D2D2D" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M0 7H44V1H0V23V37" stroke="#2D2D2D" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <div class="icon-columns__right">
+                            <p class="icon-columns__title">Dedicated Desk</p>
+                            <p class="icon-columns__text">
+                                With lots of unique blocks, you can easily build a page without coding. Build your next
+                                landing page.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="icon-columns__item" data-sal="slide-up" data-sal-delay="200" data-sal-duration="1000">
+                        <div class="icon-columns__icon">
+                            <svg width="41" height="34" viewBox="0 0 41 34" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="20" cy="29" r="4" stroke="#2D2D2D" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M31.3 17.7C28.4 14.8 24.4 13 20 13C15.6 13 11.6 14.8 8.7 17.7" stroke="#2D2D2D"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M39.8 9.2C34.7 4.1 27.7 1 20 1C12.3 1 5.3 4.1 0.199997 9.2" stroke="#2D2D2D"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <div class="icon-columns__right">
+                            <p class="icon-columns__title">High Speed Internet</p>
+                            <p class="icon-columns__text">
+                                With lots of unique blocks, you can easily build a page without coding. Build your next
+                                landing page.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="icon-columns__item" data-sal="slide-up" data-sal-delay="300" data-sal-duration="1000">
+                        <div class="icon-columns__icon">
+                            <svg width="36" height="42" viewBox="0 0 36 42" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M22.4 41H5.6C2.50693 41 0 38.5826 0 35.6V14H28V35.6C28 38.5826 25.4931 41 22.4 41Z"
+                                    stroke="#2D2D2D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M12.5 1V6" stroke="#2D2D2D" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M3.5 3V8" stroke="#2D2D2D" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M22.5 3V8" stroke="#2D2D2D" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M28 19H35V28.2857C35 30.3369 33.4329 32 31.5 32H28" stroke="#2D2D2D"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <div class="icon-columns__right">
+                            <p class="icon-columns__title">Unlimited Coffee</p>
+                            <p class="icon-columns__text">
+                                With lots of unique blocks, you can easily build a page without coding. Build your next
+                                landing page.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="content-accordions">
+            <div class="content-accordions__container container">
+                <div class="content-accordions__content" data-sal="slide-up" data-sal-delay="100"
+                    data-sal-duration="1000">
+                    <h2>We are always here for your backup.</h2>
+                    <p>
+                        We share common trends and strategies for creating & improving your rental income.
+                    </p>
+                    <ul class="is-style-checkmark">
+                        <li>
+                            <p><strong>Noise Free Locations</strong></p>
+                            <p>With lots of unique blocks, you can easily build a page without coding.</p>
+                        </li>
+                        <li>
+                            <p><strong>24/7 Hour Support</strong></p>
+                            <p>With lots of unique blocks, you can easily build a page without coding.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="content-accordions__accordions accordion-container" data-sal="slide-down"
+                    data-sal-delay="300" data-sal-duration="1000">
+                    <div class="ac">
+                        <div class="ac-header">
+                            <button type="button" class="ac-trigger">How to setup Shade Pro?</button>
+                        </div>
+                        <div class="ac-panel">
+                            <p>
+                                With lots of unique blocks, you can easily build a page with coding. Build your next
+                                landing page. Integer ut obe ryn. Sed feugiat vitae turpis a porta.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="ac">
+                        <div class="ac-header">
+                            <button type="button" class="ac-trigger">Can I use Shade Pro for my clients?</button>
+                        </div>
+                        <div class="ac-panel">
+                            <p>
+                                With lots of unique blocks, you can easily build a page with coding. Build your next
+                                landing page. Integer ut obe ryn. Sed feugiat vitae turpis a porta.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="ac">
+                        <div class="ac-header">
+                            <button type="button" class="ac-trigger">How often do you release update?</button>
+                        </div>
+                        <div class="ac-panel">
+                            <p>
+                                With lots of unique blocks, you can easily build a page with coding. Build your next
+                                landing page. Integer ut obe ryn. Sed feugiat vitae turpis a porta.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="ac">
+                        <div class="ac-header">
+                            <button type="button" class="ac-trigger">How can I access to old version?</button>
+                        </div>
+                        <div class="ac-panel">
+                            <p>
+                                With lots of unique blocks, you can easily build a page with coding. Build your next
+                                landing page. Integer ut obe ryn. Sed feugiat vitae turpis a porta.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="newsletter">
+            <div class="newsletter__container container">
+                <div class="newsletter__content" data-sal="slide-down" data-sal-delay="100" data-sal-duration="1000">
+                    <h2>Get latest updates</h2>
+                    <p>With lots of unique blocks, you can easily build a page without coding. Build your next landing
+                        page.</p>
+                </div>
+                <form class="newsletter__form" data-sal="fade" data-sal-delay="200" data-sal-duration="1000">
+                    <input type="email" class="newsletter__input" name="email" id="email"
+                        placeholder="Enter your email">
+                    <button type="submit" class="newsletter__btn">Subscribe</button>
+                </form>
+                <p class="newsletter__caption" data-sal="slide-up" data-sal-delay="300" data-sal-duration="1000">We’ll
+                    never share your details with third parties. <br />
+                    View our Privacy Policy for more info.</p>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__columns">
+                <div class="footer__column">
+                    <h2 class="footer__title">Company</h2>
+                    <ul class="footer__links">
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">About us</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Contact us</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Partners</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Press</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__column">
+                    <h2 class="footer__title">Product</h2>
+                    <ul class="footer__links">
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Features</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Pricing</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">News</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Help Desk</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__column">
+                    <h2 class="footer__title">Services</h2>
+                    <ul class="footer__links">
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Digital Marketing</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Content Writing</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">SEO for Business</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">UI Design</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__column">
+                    <h2 class="footer__title">Legal</h2>
+                    <ul class="footer__links">
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Privacy Policy</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Terms & Conditions</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">Return Policy</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__column">
+                    <h2 class="footer__title">Contact Us</h2>
+                    <ul class="footer__links">
+                        <li class="footer__item">
+                            <a href="mailto:support@brainwave.io" class="footer__link">
+                                <strong>support@brainwave.io</strong>
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="tel:+133-394-3439-1435" class="footer__link">
+                                <strong>+133-394-3439-1435</strong>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__text">© 2024 Copyright, All Right Reserved, Made by Seju_ui_ux with</p>
+                <ul class="social-links">
+                    <li class="social-links__item">
+                        <a href="#" class="social-links__link" aria-label="Twitter">
+                            <svg width="18" height="15" viewBox="0 0 18 15" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M18 1.73969C17.325 2.04897 16.6125 2.24227 15.8625 2.35825C16.6125 1.89433 17.2125 1.15979 17.475 0.270619C16.7625 0.695876 15.975 1.00515 15.1125 1.19845C14.4375 0.463918 13.4625 0 12.4125 0C10.3875 0 8.7375 1.70103 8.7375 3.78866C8.7375 4.09794 8.775 4.36856 8.85 4.63918C5.8125 4.48454 3.075 2.9768 1.2375 0.657216C0.9375 1.23711 0.75 1.85567 0.75 2.55155C0.75 3.86598 1.3875 5.02577 2.4 5.72165C1.8 5.68299 1.2375 5.52835 0.7125 5.25773V5.29639C0.7125 7.15206 1.9875 8.69845 3.675 9.04639C3.375 9.12371 3.0375 9.16237 2.7 9.16237C2.475 9.16237 2.2125 9.12371 1.9875 9.08505C2.475 10.5928 3.825 11.7139 5.4375 11.7139C4.1625 12.7191 2.5875 13.3376 0.8625 13.3376C0.5625 13.3376 0.2625 13.3376 0 13.299C1.65 14.3814 3.5625 15 5.6625 15C12.45 15 16.1625 9.20103 16.1625 4.17526C16.1625 4.02062 16.1625 3.82732 16.1625 3.67268C16.875 3.1701 17.5125 2.51289 18 1.73969Z"
+                                    fill="#161C2D" />
+                            </svg>
+
+                        </a>
+                    </li>
+                    <li class="social-links__item">
+                        <a href="#" class="social-links__link" aria-label="Facebook">
+                            <svg width="19" height="19" viewBox="0 0 19 19" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M18.2083 0H0.791667C0.354441 0 0 0.354441 0 0.791667V18.2083C0 18.6456 0.354441 19 0.791667 19H10.1485V11.6422H7.67244V8.77473H10.1485V6.66005C10.1485 4.20597 11.6474 2.86968 13.8366 2.86968C14.8852 2.86968 15.7865 2.94776 16.0491 2.98265V5.5473L14.5308 5.54799C13.3402 5.54799 13.1097 6.11375 13.1097 6.94397V8.77473H15.9492L15.5794 11.6422H13.1097V19H18.2083C18.6456 19 19 18.6456 19 18.2083V0.791667C19 0.354441 18.6456 0 18.2083 0Z"
+                                    fill="#161C2D" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-links__item">
+                        <a href="#" class="social-links__link" aria-label="Instagram">
+                            <svg width="19" height="19" viewBox="0 0 19 19" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M5.58323 0.057C6.59656 0.0110833 6.91996 0 9.5 0C12.08 0 12.4034 0.0110833 13.4168 0.057C14.9613 0.127458 16.317 0.505875 17.4056 1.59442C18.4945 2.68335 18.8725 4.03948 18.943 5.58323C18.9889 6.59656 19 6.91996 19 9.5C19 12.08 18.9889 12.4034 18.943 13.4168C18.8725 14.9613 18.4941 16.317 17.4056 17.4056C16.3166 18.4945 14.9601 18.8725 13.4168 18.943C12.4034 18.9889 12.08 19 9.5 19C6.91996 19 6.59656 18.9889 5.58323 18.943C4.03869 18.8725 2.68296 18.4941 1.59442 17.4056C0.505479 16.3166 0.127458 14.9605 0.057 13.4168C0.0110833 12.4034 0 12.08 0 9.5C0 6.91996 0.0110833 6.59656 0.057 5.58323C0.127458 4.03869 0.505875 2.68296 1.59442 1.59442C2.68335 0.505479 4.03948 0.127458 5.58323 0.057ZM13.3388 1.767C12.3369 1.72108 12.0365 1.71158 9.5 1.71158C6.9635 1.71158 6.66306 1.72148 5.66121 1.767C4.58019 1.81648 3.57675 2.033 2.80487 2.80487C2.033 3.57675 1.81648 4.58019 1.767 5.66121C1.72108 6.66306 1.71158 6.9635 1.71158 9.5C1.71158 12.0365 1.72148 12.3369 1.767 13.3388C1.81648 14.4198 2.033 15.4233 2.80487 16.1951C3.57675 16.967 4.58019 17.1835 5.66121 17.233C6.66267 17.2789 6.9631 17.2884 9.5 17.2884C12.0369 17.2884 12.3373 17.2785 13.3388 17.233C14.4198 17.1835 15.4233 16.967 16.1951 16.1951C16.967 15.4233 17.1835 14.4198 17.233 13.3388C17.2789 12.3369 17.2884 12.0365 17.2884 9.5C17.2884 6.9635 17.2785 6.66306 17.233 5.66121C17.1835 4.58019 16.967 3.57675 16.1951 2.80487C15.4233 2.033 14.4198 1.81648 13.3388 1.767Z"
+                                    fill="#161C2D" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M5.18182 9.93188C5.18182 7.30867 7.30822 5.18188 9.93182 5.18188C12.5554 5.18188 14.6818 7.30828 14.6818 9.93188C14.6818 12.5555 12.5554 14.6819 9.93182 14.6819C7.30822 14.6819 5.18182 12.5551 5.18182 9.93188ZM6.84841 9.93188C6.84841 11.6347 8.22901 13.0153 9.93182 13.0153C11.6346 13.0153 13.0152 11.6347 13.0152 9.93188C13.0152 8.22907 11.6346 6.84847 9.93182 6.84847C8.22901 6.84847 6.84841 8.22907 6.84841 9.93188Z"
+                                    fill="#161C2D" />
+                                <circle cx="14.25" cy="4.75004" r="1.29545" fill="#161C2D" />
+                            </svg>
+
+                        </a>
+                    </li>
+                    <li class="social-links__item">
+                        <a href="#" class="social-links__link" aria-label="Linkedin">
+                            <svg width="19" height="19" viewBox="0 0 19 19" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M0.791667 0H18.2083C18.6438 0 19 0.35625 19 0.791667V18.2083C19 18.6438 18.6438 19 18.2083 19H0.791667C0.35625 19 0 18.6438 0 18.2083V0.791667C0 0.35625 0.35625 0 0.791667 0ZM2.81042 16.1896H5.62083V7.125H2.81042V16.1896ZM4.23542 5.89792C3.325 5.89792 2.6125 5.18542 2.6125 4.275C2.6125 3.36458 3.325 2.65208 4.23542 2.65208C5.14583 2.65208 5.85833 3.36458 5.85833 4.275C5.85833 5.14583 5.14583 5.89792 4.23542 5.89792ZM13.3792 16.1896H16.15V11.2021C16.15 8.74792 15.6354 6.8875 12.7854 6.8875C11.4396 6.8875 10.4896 7.63958 10.1333 8.35208H10.0938V7.125H7.40208V16.1896H10.2125V11.7167C10.2125 10.5292 10.45 9.38125 11.9146 9.38125C13.3792 9.38125 13.3792 10.7271 13.3792 11.7958V16.1896Z"
+                                    fill="#161C2D" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="/assets/src/modules/scripts/sal.min.js"></script>
+    <script src="/assets/src/modules/scripts/accordion.min.js"></script>
+    <script src="/assets/src/modules/scripts/purecounter.min.js"></script>
+    <script src="/assets/src/modules/scripts/glightbox.min.js"></script>
+    <script src="/assets/dist/js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+$grid-breakpoints: (
+  xs: 375px,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1180px,
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 940px,
+  xl: 1130px,
+);
+
+$font-default: "Montserrat", sans-serif;
+
+$white: #fff;
+$black: #000;
+$primary: #473bf0;
+$color-1: #68d585;
+$color-2: #161c2d;
+$color-3: #f4f7fa;
+$color-4: #e7e9ed;

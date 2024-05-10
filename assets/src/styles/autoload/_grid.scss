@@ -1,0 +1,18 @@
+@import "breakpoints";
+@import "grid-system";
+
+@mixin make-max-widths-container-width(
+  $max-widths: $container-max-widths,
+  $breakpoints: $grid-breakpoints
+) {
+  @each $breakpoint, $container-max-width in $max-widths {
+    @include media-up($breakpoint, $breakpoints) {
+      max-width: $container-max-width;
+    }
+  }
+}
+
+.container {
+  @include make-max-widths-container-width();
+  @include make-container();
+}

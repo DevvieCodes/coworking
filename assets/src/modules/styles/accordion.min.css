@@ -1,0 +1,1 @@
+.ac-panel{overflow:hidden;opacity:0;transition-property:height,visibility,opacity;transition-timing-function:ease}.ac.js-enabled .ac-panel{visibility:hidden}.ac.is-active .ac-panel{visibility:visible;opacity:1}
